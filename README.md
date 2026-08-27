@@ -23,7 +23,6 @@ Place datasets under `data/`, for example:
 
 ```text
 data/
-├── PEMS03/   # PEMS03.npz, PEMS03.csv, PEMS03.txt (id map required)
 ├── PEMS04/   # PEMS04.npz, distance.csv
 ├── PEMS07/   # PEMS07.npz, PEMS07.csv
 └── PEMS08/   # PEMS08.npz, PEMS08.csv
@@ -40,7 +39,6 @@ conda activate mvgae-lgnet
 
 ```bash
 python train_hybrid.py --config configurations/PEMS04_multi_period.conf
-python train_hybrid.py --config configurations/PEMS03_multi_period.conf
 python train_hybrid.py --config configurations/PEMS07_multi_period.conf
 python train_hybrid.py --config configurations/PEMS08_multi_period.conf
 ```
