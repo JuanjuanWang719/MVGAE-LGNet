@@ -1,0 +1,9 @@
+numpy>=1.21
+scikit-learn>=1.0
+tensorboardX>=2.5
+torch-geometric>=2.3
+
+# GPU 版 PyTorch（RTX 4090 / CUDA 12.x）请单独安装：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# CPU 版：
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
